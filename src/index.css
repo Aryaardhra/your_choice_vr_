@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Varela&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background-color: lavender;
+}
+a{
+  text-decoration: none;
+  color:#100f0f;
+  line-height: 1;
+  cursor: pointer;
+}
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.btn{
+  background: #8a87c7;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+}
+.btn.dark_btn{
+  background: #57497c;
+  color:#FFF
+}
+
+/*=====================media query=================================*/
+
+@media (max-width: 1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
+}
